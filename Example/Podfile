@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SBridge_Example', :exclusive => true do
+  pod "SBridge", :path => "../"
+end
+
+target 'SBridge_Tests', :exclusive => true do
+  pod "SBridge", :path => "../"
+
+  
+end
